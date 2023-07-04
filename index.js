@@ -8,7 +8,7 @@ const csvFolderPath = '/home/yloukou/workspace/files1'; // Remplacez par le chem
 
 
 app.get('/', (_, res) => {
-  const indexHTML = fs.readFileSync(__dirname + "/front/index.html", "utf-8")
+  const indexHTML = fs.readFileSync(__dirname + "/front/login.html", "utf-8")
   res.send(indexHTML);
 });
 
