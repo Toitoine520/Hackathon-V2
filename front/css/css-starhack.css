@@ -1,0 +1,26 @@
+.logo{
+    max-height: 50px;
+}
+
+.bg-greyb1{
+    background-color: #b1b1b1;
+}
+
+.color-black, 
+.sidebar-dark .nav-item .nav-link[data-toggle=collapse]::after,
+.sidebar-dark #sidebarToggle::after{
+    color: black !important;
+}
+
+.vert-clair{
+    background-color: #51FC58;
+}
+.jaune{
+    background-color: #EEFC51;
+}
+.orange{
+    background-color: #febb39;
+}
+.rouge{
+    background-color: #FC7A51;
+}
