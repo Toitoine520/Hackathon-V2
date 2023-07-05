@@ -3,24 +3,36 @@
 }
 
 .bg-greyb1{
-    background-color: #b1b1b1;
+    background-color: #424242 !important;
 }
 
 .color-black, 
 .sidebar-dark .nav-item .nav-link[data-toggle=collapse]::after,
 .sidebar-dark #sidebarToggle::after{
-    color: black !important;
+    color: white !important;
 }
 
 .vert-clair{
     background-color: #51FC58;
 }
+.gris1{
+    background-color: hsl(122 7% 85%);
+}
+.gris2{
+    background-color: hsl(65, 7%, 75%);
+}
+.gris3{
+    background-color: hsl(40, 9%, 61%);
+}
+.gris4{
+    background-color: hsl(14, 7%, 35%);
+}
 .jaune{
-    background-color: #EEFC51;
+    background-color: hsl(65, 97%, 65%);
 }
 .orange{
-    background-color: #febb39;
+    background-color: hsl(40, 99%, 61%);
 }
 .rouge{
-    background-color: #FC7A51;
+    background-color: hsl(14, 97%, 65%);
 }
