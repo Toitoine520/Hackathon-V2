@@ -7,8 +7,9 @@ const folderPath = '/home/yloukou/workspace/files1'; // Remplacez par le chemin 
 const csvFolderPath = '/home/yloukou/workspace/files1'; // Remplacez par le chemin vers le dossier de fichiers CSV
 
 
-app.get('/', (req, res) => {
-  res.send('Hello, Express!');
+app.get('/', (_, res) => {
+  const indexHTML = fs.readFileSync(__dirname + "/front/login.html", "utf-8")
+  res.send(indexHTML);
 });
 
 app.listen(3000, () => {
