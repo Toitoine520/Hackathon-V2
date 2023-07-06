@@ -36,3 +36,40 @@
 .rouge{
     background-color: hsl(14, 97%, 65%);
 }
+
+/* Tableau */
+
+.tableau-rapport{
+    overflow-x: scroll;
+    width: auto;
+}
+
+.tableau-rapport th,
+.tableau-rapport td{
+    min-width: 150px;
+    max-height: 200px;
+    max-width: 500px;
+    overflow-y: hidden;
+    border: solid 1px;
+    padding: 0.5em;
+
+    overflow-wrap: break-word;
+}
+
+.tableau-rapport .col-solution{
+    min-width: 450px;
+}
+
+@media all and (min-width: 700px){
+    .max-width-50{
+        max-width: 50%;
+    }
+}
+
+/*icon radar scan*/
+
+.scan-icon{
+    max-width: 100%;
+    padding: 7px;
+}
+
