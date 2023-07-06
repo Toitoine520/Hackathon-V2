@@ -73,3 +73,8 @@
     padding: 7px;
 }
 
+.centre-content.col-lg-6 {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
